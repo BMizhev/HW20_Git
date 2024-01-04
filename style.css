@@ -1,0 +1,100 @@
+#myIdSelector {
+    color: blue;
+}
+
+.myClassSelector {
+    font-size: 16px;
+    font-weight: bold;
+}
+body {
+    background-color: lightblue; 
+  }
+  
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  div{
+    width:75%
+  }
+  /*comment */
+ .h3 {
+color: rgb(37, 17, 17);
+ }
+ #chapter1 {
+  color: rgb(7, 7, 15);
+  font-size: 18px;
+ }
+ #chapter2 {
+  color: darkblue;
+  font-size: 18px;
+  font-family: "Lucida Console" ;
+ }
+ .content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+ }
+ .custom-button {
+  width: 150px;
+  height: 40px;}
+  p.text-content{
+    text-align: center;
+  }
+  h1, h3, p {
+  color: black;
+  }
+  div b {
+    color: red;
+  }
+  div i {
+    color:brown;
+  }
+  p {
+    background-color: rgba(127, 247, 207, 0.5);
+  }
+  body {
+    background-image: url("Photo/backgr.jpg");
+    background-repeat: repeat-x;
+    background-position: top;
+  }
+  body 
+  {
+    background-image: url("Photo/RJJBelts.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+  }
+
+  h1 {
+    background-image: url("Photo/wall.jpg");
+    
+  }
+  a {
+    background-color: chartreuse;
+  }
+  a.visited {
+    color:brown;
+  }
+p.text-content {border-style: dotted; border-width: 5px 20px; border-color: black; height: 200px; width: 150%;}
+div.text-content {border-style: solid; border-width: 5px 20px 10px 15px; border-radius: 20px;}
+div.text-content {margin: 20px;}
+#myWins{
+  letter-spacing: 3px;
+}
+h3 {
+  letter-spacing: 5px;
+}
+p::first-letter {
+  color: green;
+  font-size: xx-large;
+}
+body {
+  counter-reset: section;
+}
+h3::before{
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
